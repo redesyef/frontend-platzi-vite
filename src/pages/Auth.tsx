@@ -15,7 +15,7 @@ const Auth = () => {
             <img src={logo} alt="logo" className="logo" />
             <h1 className="title">Crear nueva contraseña</h1>
             <p className="subtitle">Ingresar nueva contraseña</p>
-            <form action="" className="form"></form>
+            <form action="" className="form">
             <label htmlFor="password" className="label">
               Contraseña
             </label>
@@ -25,6 +25,7 @@ const Auth = () => {
               id="password"
               placeholder="********"
             />
+            
             <label htmlFor="new-password" className="label">
               Repetir contraseña
             </label>
@@ -39,6 +40,7 @@ const Auth = () => {
               value="Confirmar"
               className="primary-button login-button"
             />
+            </form>
           </div>
         </div>
       </div>
