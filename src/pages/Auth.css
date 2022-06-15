@@ -10,7 +10,7 @@ place-items: center;
 .form-container{
 display: grid;
 grid-template-rows: auto 1fr auto;
-width: 300px;
+width: 400px;
 }
 .logo{
 width: 150px;
@@ -20,8 +20,9 @@ display: none;
 }
 .title{
     font-size: var(--lg);
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-align: center;
+    font-weight: 700;
 }
 .subtitle{
     color: var(--very-light-pink);
